@@ -35,6 +35,11 @@ pero si lo queremos es definir un párrafo completo como código escribiremos tr
    echo "fragmento largo de código
  ?>
 ```
+## LISTA
+nos permite definir definir lista ordenadas, no ordenadas y anidar una listas dentro de otras. para las listas no ordenadas bastará con escribir un asterisco `(*)`y luego separar el contenido de las lista con un espacio en blanco.
+
+* primer elemento de la lista
+* segundo elemento de la lista
 
 
 
