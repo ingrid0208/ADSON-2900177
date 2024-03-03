@@ -79,7 +79,16 @@ las barras verticales delimitan la celda. justo debajo de los encabezados haremo
 |col 1 is|left-aligned|$1600|
 |col 2 is|centered|$12|
 
+## USAR EJOMI
+Puedes agregar emoji a la escritura escribiendo :EMOJICODE:, dos puntos seguidos del nombre del emoji.
 
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+
+Captura de pantalla de GitHub Markdown que muestra cómo los códigos emoji para +1 y shipit se muestran visualmente como emoji.
+
+Escriba : mostrará una lista de emojis sugeridos. La lista se filtrará a medida que escriba, por lo que una vez que encuentre el emoji que está buscando, pulse Tab o Entrar para completar el resultado resaltado.
+
+Para obtener una lista completa de los códigos y emoji disponibles, consulta la hoja de referencia rápida de los emoji.
 
 
 
