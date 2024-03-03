@@ -90,6 +90,49 @@ Escriba : mostrará una lista de emojis sugeridos. La lista se filtrará a medid
 
 Para obtener una lista completa de los códigos y emoji disponibles, consulta la hoja de referencia rápida de los emoji.
 
+## Notas al pie
+Puedes agregar notas al pie para tu contenido si utilizas esta sintaxis de corchetes:
+
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+``[^1]: My reference.``
+
+``[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.``
+  This is a second line.
+  
+ ## Alertas
+Las alertas son una extensión Markdown basada en la sintaxis blockquote que puede utilizar para resaltar la información crítica. En GitHub, se muestran con colores e iconos distintivos para indicar la importancia del contenido.
+
+Deben usarse las alertas solo cuando sean cruciales para el éxito del usuario y limitarlas a una o dos por artículo para evitar sobrecargar al lector. Además, debe evitarse colocar alertas consecutivamente. Las alertas no se pueden anidar dentro de otros elementos.
+
+Para agregar una alerta, debe usarse una línea blockquote especial que especifique el tipo de alerta, seguida de la información de alerta en un blockquote estándar. Existen cinco tipos de alertas.
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+Ocultar el contenido con comentarios
+Puedes decirle a GitHub que oculte el contenido del lenguaje de marcado interpretado colocando el contenido en un comentario de HTML.
+
+``<!-- This content will not appear in the``
+
+Ignorar formato de Markdown
+Puede pedirle a GitHub que ignore (u omita) el formato de Markdown escribiendo \ antes del carácter de Markdown.
+
+`Let's rename \*our-new-project\* to \*our-old-project\*.`
 
 
 
