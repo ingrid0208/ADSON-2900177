@@ -38,9 +38,23 @@ pero si lo queremos es definir un párrafo completo como código escribiremos tr
 ## LISTA
 nos permite definir definir lista ordenadas, no ordenadas y anidar una listas dentro de otras. para las listas no ordenadas bastará con escribir un asterisco `(*)`y luego separar el contenido de las lista con un espacio en blanco.
 
-* primer elemento de la lista
-* segundo elemento de la lista
+``* primer elemento de la lista``
 
+``* segundo elemento de la lista``
+
+en el caso de las lista ordenadas escribiremos el número seguido de un punto 
+
+``1. primer elemento``
+
+``2. segundo elemento ``
+## ENLACES
+podemos generar hipervinculos indicando el titulo del enlace entre corchetes y el link entre paréntesis (sin aplicar ningún espacio en blanco entre ambos).
+
+[Visita mi web](https://github.com)
+
+## IMAGENES 
+la sintaxis pata incrustar imágenes es muy parecida a la anterior, simplemente antepondremos el cierre de exclamación `(!)` al formato anterior 
+en este caso, entre corchetes se indica el texto alternativo de la imagen y entre paréntesis la URL de la misma.
 
 
 
