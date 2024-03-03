@@ -56,5 +56,33 @@ podemos generar hipervinculos indicando el titulo del enlace entre corchetes y e
 la sintaxis pata incrustar imágenes es muy parecida a la anterior, simplemente antepondremos el cierre de exclamación `(!)` al formato anterior 
 en este caso, entre corchetes se indica el texto alternativo de la imagen y entre paréntesis la URL de la misma.
 
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+
+## LINEAS
+para agregar una línea divisoria haremos uso del guión `(-)`, escribiendo tres consecutivos.
+
+---
+
+## GENERACION DE TABLAS 
+Markdown también permite generar tablas de una manera rápida y sencilla 
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+
+
+las barras verticales delimitan la celda. justo debajo de los encabezados haremos uso del guión para indicar que comenzamos con los valores de la tabla. A este guión podemos añadirle los dos puntos `(:)`a ambos lados para indicar que el texto estará centrado,o al final para indicar alineación a la derecha.
+
+|Tables|Are|Cool|
+|-|:-:|-:|
+|col 1 is|left-aligned|$1600|
+|col 2 is|centered|$12|
+
+
+
+
+
+
 
 
