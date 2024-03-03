@@ -79,7 +79,7 @@ las barras verticales delimitan la celda. justo debajo de los encabezados haremo
 |col 1 is|left-aligned|$1600|
 |col 2 is|centered|$12|
 
-## USAR EJOMI
+## USAR EMOJI
 Puedes agregar emoji a la escritura escribiendo :EMOJICODE:, dos puntos seguidos del nombre del emoji.
 
 @octocat :+1: This PR looks great - it's ready to merge! :shipit:
@@ -90,7 +90,7 @@ Escriba : mostrará una lista de emojis sugeridos. La lista se filtrará a medid
 
 Para obtener una lista completa de los códigos y emoji disponibles, consulta la hoja de referencia rápida de los emoji.
 
-## Notas al pie
+## NOTAS AL PIE
 Puedes agregar notas al pie para tu contenido si utilizas esta sintaxis de corchetes:
 
 Here is a simple footnote[^1].
@@ -102,7 +102,7 @@ A footnote can also have multiple lines[^2].
 ``[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.``
   This is a second line.
   
- ## Alertas
+ ## ALERTAS
 Las alertas son una extensión Markdown basada en la sintaxis blockquote que puede utilizar para resaltar la información crítica. En GitHub, se muestran con colores e iconos distintivos para indicar la importancia del contenido.
 
 Deben usarse las alertas solo cuando sean cruciales para el éxito del usuario y limitarlas a una o dos por artículo para evitar sobrecargar al lector. Además, debe evitarse colocar alertas consecutivamente. Las alertas no se pueden anidar dentro de otros elementos.
@@ -124,12 +124,14 @@ Para agregar una alerta, debe usarse una línea blockquote especial que especifi
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
 
-Ocultar el contenido con comentarios
+## OCULTAR EL CONTENIDO CON COMENTARIOS 
+
 Puedes decirle a GitHub que oculte el contenido del lenguaje de marcado interpretado colocando el contenido en un comentario de HTML.
 
 ``<!-- This content will not appear in the``
 
-Ignorar formato de Markdown
+## IGNORAR FORMATO DE MARKDOWN 
+
 Puede pedirle a GitHub que ignore (u omita) el formato de Markdown escribiendo \ antes del carácter de Markdown.
 
 `Let's rename \*our-new-project\* to \*our-old-project\*.`
