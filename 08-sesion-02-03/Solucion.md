@@ -1,13 +1,13 @@
 ```
   inicio
       definir Ma,Fe,Er,Ma1,Fe1,Er1,totalinversion,como real
-      Ma = 0,0
-      Fe = 0,0
-      Er = 0,0
-      Ma1 = 0,0
-      Fe1 = 0,0
-      Er1 = 0,0
-      totalinversion = 0,0
+      Ma = 0.0;
+      Fe = 0.0;
+      Er = 0.0;
+      Ma1 = 0.0;
+      Fe1 = 0.0;
+      Er1 = 0.0;
+      totalinversion = 0.0;
 
       Escribir"digite la inversion de Maria",
       Leer Ma;
@@ -28,22 +28,22 @@
 ```
   inicio
       definir a1,b1,c1,d1,e,f,g2,h2,i2,j,k,m,n,ñ,o,p como real
-      a1 = 0,0
-      b1 = 0,0
-      c1 = 0,0
-      d1 = 0,0
-      e = 0,0
-      f = 0,0
-      g2 = 0,0
-      h2 = 0,0
-      i2 = 0,0
-      j = 0,0
-      k = 0,0
-      m = 0,0 
-      n = 0,0
-      ñ = 0,0
-      o = 0,0
-      p = 0,0
+      a1 = 0.0;
+      b1 = 0.0;
+      c1 = 0.0;
+      d1 = 0.0;
+      e = 0.0;
+      f = 0.0;
+      g2 = 0.0;
+      h2 = 0.0;
+      i2 = 0.0;
+      j = 0.0;
+      k = 0.0;
+      m = 0.0;
+      n = 0.0;
+      ñ = 0.0;
+      o = 0.0;
+      p = 0.0;
 
       Escribir"digite la resta de la evaluacion";
       Leer a1;
@@ -58,16 +58,39 @@
       f = (a1 * 0,9) + (e * 0,1)
 
       Escribir"el promedio de matematicas es",F
-      Escribir"la calificacion de fisica se obtiene de la siguiente manera: examen 30%
-      
+      Escribir"la calificacion de fisica se obtiene de la siguiente manera: examen 30% y el promedio de 2 tareas el 20%";
+      Escribir"digite la nota de la evaluacion";
+      Leer g;
+      Escribir"digite la nota de la primera tarea";
+      Leer h;
+      Escribir"digite la nota de la segunda tarea";
+      Leer i;
 
+      i = (g + h)/2;
+      k = (f * 0,8) + (i * 0,2);
 
-      
+      Escribir"el promedio de la fisica es",k;
+      Escribir"la clasificacion de quimica se obtiene de la siguiente manera:examen 85% y el promedio de 3 tareas 15%";
+      Escribir"digite la nota de la evaluacion";
+      Leer l;
+      Escribir"digite la nota de la primera tarea";
+      Leer m;
+      Escribir"digite la nota de la segunda tarea";
+      Leer n;
+      Escribir"digite la nota de su tercera tarea";
+      Leer ñ;
+
+      o = (m + n + ñ)/3;
+      p = (l * 0,85) + (o * 0,15);
+
+      Escribir"el promedio de quimica es",p;
+  fin
+
 ```
 ```
   inicio
       definir num como real
-      num = 0,0
+      num = 0.0;
 
       Escribir"digite un numero"
       Leer num;
@@ -82,7 +105,7 @@
 ```
   inicio
       definir num como real
-      num = 0,0
+      num = 0.0;
 
       Escribir"digite un numero"
       Leer num;
@@ -97,7 +120,7 @@
 ```
   inicio
       definir num como real
-      num = 0,0
+      num = 0.0;
 
       Escribir"digite un numero"
       Leer num;
