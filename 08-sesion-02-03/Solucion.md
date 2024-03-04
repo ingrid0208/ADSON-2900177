@@ -60,14 +60,14 @@
       Escribir"el promedio de matematicas es",F
       Escribir"la calificacion de fisica se obtiene de la siguiente manera: examen 30% y el promedio de 2 tareas el 20%";
       Escribir"digite la nota de la evaluacion";
-      Leer g;
+      Leer g2;
       Escribir"digite la nota de la primera tarea";
-      Leer h;
+      Leer h2;
       Escribir"digite la nota de la segunda tarea";
-      Leer i;
+      Leer i2;
 
-      i = (g + h)/2;
-      k = (f * 0,8) + (i * 0,2);
+      i2 = (g2 + h2)/2;
+      k = (f * 0,8) + (i2 * 0,2);
 
       Escribir"el promedio de la fisica es",k;
       Escribir"la clasificacion de quimica se obtiene de la siguiente manera:examen 85% y el promedio de 3 tareas 15%";
