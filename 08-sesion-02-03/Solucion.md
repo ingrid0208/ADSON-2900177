@@ -58,6 +58,7 @@
       f = (a1 * 0,9) + (e * 0,1)
 
       Escribir"el promedio de matematicas es",F
+      Escribir"la calificacion de fisica se obtiene de la siguiente manera: examen 30%
       
 
 
