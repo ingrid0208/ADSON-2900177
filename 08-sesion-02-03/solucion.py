@@ -83,3 +83,6 @@
     print("el numero digitado esta en el rango de 50 y 100")
     else:
     print("el numero digitado no esta en el rango de 50 y 100")
+
+
+
