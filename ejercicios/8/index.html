@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pago total de una persona</title>
+</head>
+<body>
+    <script>
+        let pagoTotal;
+        let diasTrabajados;
+        let valorDia;
+        let sueldo1;
+        let sueldo2;
+        let salud;
+        let pension;
+        let arl;
+        let descuento;
+
+        diasTrabajados = 30;
+        valorDia = 67;
+        sueldo2 = 78;
+
+        sueldo1 = diasTrabajados * valorDia;
+        salud = sueldo2 * 0.12;
+        pension = sueldo2 * 0.16;
+        arl = sueldo2 * 0.052;
+        descuento = salud + pension + arl;
+        pagoTotal = sueldo1 - descuento;
+
+        console.log("Sueldo: "+sueldo1+"\n");
+        console.log("Salud: "+salud+"\n");
+        console.log("Pension: "+pension+"\n");
+        console.log("Arl: "+arl+"\n");
+        console.log("Pago Total: "+pagoTotal+"\n");
+    </script>
+</body>
+</html>
