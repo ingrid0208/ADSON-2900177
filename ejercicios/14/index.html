@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>la de tres personas</title>
+</head>
+<body>
+    <script>
+        let promedio;
+        let edad1;
+        let edad2;
+        let edad3;
+        let fechaNacimiento1;
+        let fechaNacimiento2;
+        let fechaNacimiento3;
+        let fechaActual;
+
+        fechaActual = 2024;
+        fechaNacimiento1 = 2006;
+        fechaNacimiento2 = 2000;
+        fechaNacimiento3 = 2009;
+
+        edad1 = fechaActual - fechaNacimiento1;
+        edad2 = fechaActual - fechaNacimiento2;
+        edad3 = fechaActual - fechaNacimiento3;
+
+        promedio = edad1 + edad2 + edad3;
+
+        if(edad1 >= 18){
+            console.log("mayor de edad1");
+        }
+         else{
+            console.log("menor de edad1");
+            }
+            if(edad2 >= 18){
+                console.log("mayor de edad2");
+             }
+             else{
+                console.log("menor de edad2");
+                }
+                if(edad3 >= 18 ){
+                    console.log("mayor de edad3")
+                    }
+                    else{
+                        console.log("menor de edad3")
+                        }
+                    if(promedio >= 18){
+                        console.log("mayor de edad")
+                    }
+                    else{
+                        console.log("menor de edad")
+                        }
+    </script>
+</body>
+</html>
