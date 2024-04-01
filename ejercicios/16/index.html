@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tres notas</title>
+</head>
+<body>
+    <script>
+        let nota1; 
+        let nota2; 
+        let nota3; 
+        let promedio1; 
+        let promedio2; 
+        let promedio3; 
+        let suma;
+
+        nota1 = 1;
+        nota2 = 1;
+        nota3 = 1;
+        
+        promedio1 = nota1 * 0.2;
+        promedio2 = nota2 * 0.35;
+        promedio3 = nota3 * 0.45;
+        suma = (promedio1 + promedio2 + promedio3)/3
+
+        if(suma > 4.5){
+            console.log("nota superior");
+        }
+        else{
+            if(suma <= 4.5&&
+                suma > 3.5){
+                    console.log("nota buena");
+                }
+                else{
+                    if(suma <= 3.5&&
+                        suma > 3.0){
+                            console.log("nota media");
+                        }
+                        else{
+                        console.log("nota mala");
+                }
+        }
+    } 
+    </script>
+</body>
+</html>
