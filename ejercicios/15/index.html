@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pago total del sueldo de una personas</title>
+</head>
+<body>
+    <script>
+        let diasTrabajados;
+        let valorDia;
+        let sueldo;
+        let transporte;
+        let salarioMinimo;
+        let salud;
+        let pension;
+        let arl;
+        let reten;
+        let sueldoTotal;
+
+        sueldo = 25;
+        salarioMinimo = 8;
+        diasTrabajados = 30;
+        valorDia = 67;
+
+        sueldo = valorDia * diasTrabajados;
+        if(sueldo < 2 * salarioMinimo){
+            transporte = 114.000;
+        }
+            else{
+            transporte = 0
+         }
+            salud = sueldo * 0.12;
+            pension = sueldo * 0.16;
+            arl = sueldo * 0.052;
+
+        if(sueldo > 4 * salarioMinimo){
+            reten = 0.04;
+        }
+            else{
+                reten = 0
+             }
+             sueldoTotal = (sueldo + transporte)-(salud + pension + arl);
+
+            console.log("Sueldo: "+sueldo+"\n");
+            console.log("Salud: "+salud+"\n");
+            console.log("Pension: "+pension+"\n");
+            console.log("Arl: "+arl+"\n");
+            console.log("Sueldo Total: "+sueldoTotal+"\n");
+            
+    </script>
+</body>
+</html>
