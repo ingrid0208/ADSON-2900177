@@ -1,0 +1,13 @@
+Algoritmo Alreves
+	Definir contador Como Entero
+	Definir nombre,nombreAlreves,letras Como Caracter
+	Escribir  " ¿ como es tu nombre ?"
+	Leer nombre
+	contador = longitud(nombre)
+	Repetir
+		letras = Subcadena(nombre,contador,contador)
+		nombreAlreves = Concatenar(nombreAlreves,letras)
+		contador = contador - 1;
+	Hasta Que contador = 0;
+	Escribir " Tu nombre al reves es: " nombreAlreves;
+FinAlgoritmo
