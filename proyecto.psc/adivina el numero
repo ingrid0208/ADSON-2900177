@@ -1,0 +1,22 @@
+Algoritmo AdivinaNumero
+	Definir num,usuario,intentos, min, max Como Entero;
+	intentos<- 0;
+	min<- 1;
+	max<- 30;
+	
+	num<- Azar(max - min) + min;
+	Repetir
+		Escribir "señor usuario ingrese un numero entre " , min , " y " , max ;
+		Leer usuario;
+		intentos<-intentos + 1;
+		si (num > usuario)Entonces
+			Escribir "El numero que quieres adivinar es mayor";
+		SiNo
+			si (num < usuario)Entonces
+				Escribir "El numero que quieres adivinar es menor";
+			FinSi
+		FinSi
+	Hasta Que usuario = num;
+	Escribir "Felicitaciones adivinaste el numero " , num , " en " , intentos ,  " intentos ";
+	
+FinAlgoritmo
