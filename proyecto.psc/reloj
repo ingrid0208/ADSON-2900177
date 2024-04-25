@@ -1,0 +1,40 @@
+Algoritmo sin_titulo
+	Definir hora, minuto,segundoss Como Entero
+	Escribir "Dame la hora actual "
+	Leer  hora;
+	Escribir " Dame los minutos " 
+	Leer minuto;
+	Escribir " dame los segundos "
+	Leer segundoss;
+	Mientras hora <= 23 Hacer
+		Mientras minuto <= 59 Hacer
+			Mientras  segundoss <= 59 Hacer
+				Limpiar Pantalla
+				si hora > 9 Entonces
+					Escribir hora Sin Saltar
+				SiNo
+					Escribir  "0" ,hora Sin Saltar
+				FinSi
+				si minuto > 9 Entonces
+					Escribir ":" ,minuto Sin Saltar
+				SiNo
+					Escribir ":0 " ,minuto Sin Saltar 
+				FinSi
+				si segundoss > 9 Entonces
+					Escribir ":" ,segundoss
+				SiNo
+					Escribir ":0" ,segundoss
+				FinSi
+				segundoss = segundoss+1
+				Esperar  1 segundos
+			FinMientras
+			segundoss = 0
+			minuto = minuto + 1
+		FinMientras 
+		minuto = 0 
+		hora = hora + 1
+		si hora == 24 Entonces
+			hora = 0
+		FinSi
+	Fin Mientras
+FinAlgoritmo
