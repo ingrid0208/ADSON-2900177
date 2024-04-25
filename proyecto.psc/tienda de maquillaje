@@ -1,0 +1,21 @@
+Función FacturaMayores <- CalcularFacturaParaMayores (factura)
+	FacturaMayores <- factura*1.1
+FinFunción
+
+Función FacturaMenores <- CalcularFacturaParaMenores (factura)
+	FacturaMenores <- factura*0.9
+FinFunción
+
+Algoritmo TiendaDeMaquillaje
+	Definir edad Como Entero
+	Definir factura Como Real
+	Escribir ' señor usuario ingrese su edad: '
+	Leer edad
+	Escribir ' por favor ingrese su dinero a pagar: '
+	Leer factura
+	Si edad<18 Entonces
+		Escribir ' El total a pagar tendra un descuento del 10% y sera : ', CalcularFacturaParaMenores(factura)
+	SiNo
+		Escribir ' El total a pagar tendra un recargo del 10% y sera : ', CalcularFacturaParaMayores(factura)
+	FinSi
+FinAlgoritmo
