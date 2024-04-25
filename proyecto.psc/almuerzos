@@ -1,0 +1,93 @@
+Algoritmo almuerzos 
+	Definir  comidaop como entero 
+	definir tipo_comidaop Como Caracter
+	Definir  precio como real 
+	Definir cantidad como entero
+	Definir total como real 
+	
+	Escribir " ingreser nombre del cliente"
+	Leer  nombre 
+	
+	Escribir " 1-almuerzos completo "
+	Escribir " 2-bandeja "
+	Escribir " 3-sopa "
+	leer comida 
+	segun comida Hacer 
+		1:
+			Escribir "1- sancocho y pollo sudado"
+			Escribir "2- crema de verdura y alitas BBQQ "
+			Escribir "3- sopa de maiz y pechuga gratinada "
+			Leer  comidaop
+		2:
+			Escribir "1- pollo sudado "
+			Escribir "2- alitas BBQQ "
+			Escribir "3- pechuga gratinada"
+			Leer comidaop
+		3:
+			Escribir "1- sancocho"
+			Escribir "2- crema de verdura"
+			Escribir "3- sopa de maiz "
+			Leer comidaop
+			
+		De Otro Modo:
+			Escribir "Seleccion incorrecta "
+	FinSegun
+	
+	si (comida = 1)
+		tipo_comida = "almuerzos completos"
+		Segun comidaop Hacer
+			1:
+				precio <-12.000
+				tipo_comidaop = "sancocho y pollo sudado "
+			2:
+				precio <-17.000
+				tipo_comidaop = "crema de verdura y alitas BBQQ"
+			3:
+				precio <-19.000
+				tipo_comidaop = "sopa de maiz y pechuga gratinada "
+			De Otro Modo:
+				precio<-0
+		FinSegun
+	SiNo
+		si (comida = 2)
+			tipo_comida = "bandeja"
+			Segun comidaop Hacer
+				1: 
+					precio <- 8.000
+					tipo_comidaop = " pollo sudado "
+				2:
+					precio <- 12.000
+					tipo_comidaop = " alitas BBQQ "
+				3:
+					precio <- 15.000
+					tipo_comidaop = " pechuga gratinada "
+				De Otro Modo:
+					precio <- 0
+			FinSegun
+		SiNo
+			si (comida = 3)
+				tipo_comida = "sopa"
+				Segun comidaop Hacer
+					1:
+						precio <- 4.000
+						tipo_comidaop = " sancoho "
+					2:
+						precio <- 5.000
+						tipo_comidaop = " crema de verdura"
+					3: 
+						precio <- 4.000
+						tipo_comidaop = " sopa de maiz " 
+					De Otro Modo:
+						precio <-0
+				FinSegun
+			FinSi
+		FinSi
+	FinSi
+	Escribir "cantidad "
+	leer cantidad 
+	total = precio * cantidad 
+	Escribir "tiempo de comida " , tipo_comida;
+	Escribir "tiempo de comida seleccionado " , tipo_comidaop;
+	Escribir " precio " , precio;
+	Escribir "Total a pagar" , total;
+FinAlgoritmo
