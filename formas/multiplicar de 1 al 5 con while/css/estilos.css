@@ -1,0 +1,25 @@
+.forma{
+    width: 1050px;
+    margin-top: 90px;
+}
+
+.formulario{
+    border: 1px solid #515151;
+}
+
+.respuesta{
+    border: 1px solid #515151;
+}
+
+.formulario, .respuesta{
+    margin-left: 10px;
+    border-radius: 6px;
+    padding: 30px;
+    color: rgb(8, 10, 10);
+}
+.colorear1 {
+    box-shadow: -1px -1px 6px 0 rgb(122, 221, 102), 4px 4px 16px 2px rgb(92, 162, 235);
+}
+.colorear2 {
+    box-shadow: 2px 2px 8px 0 rgb(209, 102, 221), 4px 4px 16px 0 #d66, 0px 0px 24px 2px rgb(221, 197, 102);
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link rel="stylesheet" href= "../style/fontawesome/css/all.css">
+    <link rel="stylesheet" href="../style/bootstrap/css/bootstrap.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="col-10 row forma">
+            <div class="formulario col-6 colorear2">
+
+                <form class="row g-3 needs-validation" novalidate onsubmit="return operaciones();">
+                    <div class="col-md-8">
+                      <label for="txtlado" class="form-label">lados del cuadrado</label>
+                      <input type="number" class="form-control" id="txtlado" value="Mark" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                      </div>
+                    
+                    <div class="col-md-8">
+                      <label for="txtbaseRe" class="form-label">base del rectangulo</label>
+                      <input type="number" class="form-control" id="txtbaseRe" value="Mark" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                      </div>
+
+                      <div class="col-md-8">
+                        <label for="txtalturaRe" class="form-label">altura del rectangulo</label>
+                        <input type="number" class="form-control" id="txtalturaRe" value="Mark" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                        </div>
+
+                      <div class="col-md-8">
+                        <label for="txtbaseTri" class="form-label">base del triangulo</label>
+                        <input type="number" class="form-control" id="txtbaseTri" value="Mark" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        </div>
+
+                      <div class="col-md-8">
+                        <label for="txtalturaTri" class="form-label">altura del triangulo</label>
+                        <input type="number" class="form-control" id="txtalturaTri" value="Mark" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                          </div>
+                          </div>
+                    
+                    <div class="col-12">
+                      <button class="btn btn-primary colorear1" type="submit"><i class="fa-solid fa-dragon"></i> Enviar</button>
+                    </div>
+                  </form>
+              
+            </div>
+            <div class="col-4 respuesta colorear2">
+              <div id="operaciones"></div>
+            </div>
+          </div>
+    </div>
+    <script src="../style/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="js/validar.js"></script>
+    <script src="js/notas.js"></script>
+</body>
+</html>

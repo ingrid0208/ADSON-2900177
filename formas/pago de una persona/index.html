@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="col-10 row forma">
+            <div class="formulario col-6">
+
+                <form class="row g-3 needs-validation" novalidate onsubmit="return operaciones();">
+                    <div class="col-md-8">
+                      <label for="txtdiaT" class="form-label">Dias trabajados </label>
+                      <input type="number" class="form-control" id="txtdiaT" value="Mark" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                      </div>
+                    
+                    <div class="col-md-8">
+                      <label for="txtvalorD" class="form-label">valor dia </label>
+                      <input type="number" class="form-control" id="txtvalorD" value="Mark" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                      </div>
+                    
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit"><i class="fa-solid fa-dragon"></i> Enviar</button>
+                    </div>
+                  </form>
+              
+            </div>
+            <div class="col-4 respuesta">
+              <div id="operaciones"></div>
+            </div>
+          </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="js/validar.js"></script>
+    <script src="js/notas.js"></script>
+</body>
+</html>
