@@ -1,9 +1,22 @@
 
 
-.columna{
-    color: rgb(30, 10, 209);
-}
+.columna-bingo{
+color: rgb(205, 28, 187) !important;
+font-weight: bold !important;
 
+}
+.x2{
+    background-color: rgb(205, 28, 187) !important;
+}
+.x3{
+    background-color: rgb(62, 89, 222) !important;
+}
+.x4{
+    background-color: rgb(166, 28, 201) !important;
+}
+.colorear2 {
+    box-shadow: 2px 2px 8px 0 rgb(209, 102, 221), 4px 4px 16px 0 #d66, 0px 0px 24px 2px rgb(221, 197, 102);
+}
 
 
 
