@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cb91268ddc6f4379bd78a48d1232e5d0" Name="Diagram1" ZoomLevel="86" >
+        <EntityTypeShape EntityType="DbModel.Person" Width="1.5" PointX="0.5" PointY="0.5" />
+        <EntityTypeShape EntityType="DbModel.User" Width="1.5" PointX="4.625" PointY="0.5" />
+        <EntityTypeShape EntityType="DbModel.AccessLog" Width="1.5" PointX="0.5" PointY="3.75" />
+        <EntityTypeShape EntityType="DbModel.Sesion" Width="1.5" PointX="2.375" PointY="5" />
+        <EntityTypeShape EntityType="DbModel.Rol" Width="1.5" PointX="2.5" PointY="1" />
+        <EntityTypeShape EntityType="DbModel.RolUser" Width="1.5" PointX="4.75" PointY="4.875" />
+        <EntityTypeShape EntityType="DbModel.RolPermission" Width="1.5" PointX="6.625" PointY="0.5" />
+        <EntityTypeShape EntityType="DbModel.TypeIdentification" Width="1.5" PointX="8.75" PointY="3.125" />
+        <EntityTypeShape EntityType="DbModel.Permission" Width="1.5" PointX="8.625" PointY="0.625" />
+        <EntityTypeShape EntityType="DbModel.Module" Width="1.5" PointX="7" PointY="4.625" />
+        <EntityTypeShape EntityType="DbModel.Resource" Width="1.5" PointX="11.5" PointY="1.25" />
+        <EntityTypeShape EntityType="DbModel.Form" Width="1.5" PointX="9.5" PointY="5.5" />
+        <AssociationConnector Association="DbModel.PersonUser" />
+        <AssociationConnector Association="DbModel.RolRolUser" />
+        <AssociationConnector Association="DbModel.UserRolUser" />
+        <AssociationConnector Association="DbModel.UserSesion" />
+        <AssociationConnector Association="DbModel.UserAccessLog" />
+        <AssociationConnector Association="DbModel.RolRolPermission" />
+        <AssociationConnector Association="DbModel.TypeIdentificationPerson" />
+        <AssociationConnector Association="DbModel.ResourceAccessLog" />
+        <AssociationConnector Association="DbModel.FormResource" />
+        <AssociationConnector Association="DbModel.ModuleResource" />
+        <AssociationConnector Association="DbModel.PermissionResource" />
+        <AssociationConnector Association="DbModel.PermissionRolPermission" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
